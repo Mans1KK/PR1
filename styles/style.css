@@ -19,11 +19,16 @@ body {
 }
 
 .header__square-pic {
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 1;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -73,13 +78,6 @@ body {
   right: 0;
   bottom: 0;
   z-index: 2;
-}
-
-.square-pic {
-  position: absolute;
-  right: 0;
-  top: 64px;
-  z-index: 1;
 }
 
 .content {
